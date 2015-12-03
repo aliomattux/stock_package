@@ -8,6 +8,7 @@
     'description': """ 
     """,
     'data': ['views/stock.xml',
+	     'wizard/create_package.xml',
 	     'views/package.xml',
     ],
     'test': [

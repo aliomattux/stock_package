@@ -14,6 +14,7 @@
                 </field>
                 <page string="Additional Info" position="after">
                     <page string="Packages" >
+			<button name="%(action_create_manual_package)d" type="action" string="Create Package(s)" />
                         <group string="Packages" >
                             <field name="packages" widget="one2many_list" nolabel="1" >
                                 <tree>

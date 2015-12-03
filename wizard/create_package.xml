@@ -1,0 +1,30 @@
+<openerp>
+    <data>
+
+        <record id="view_create_manual_package_form" model="ir.ui.view">
+            <field name="name">Create Package Form</field>
+            <field name="model">stock.create.manual.package</field>
+            <field name="arch" type="xml">
+                <form string="Create Package">
+		    <group>
+			<field name="picking" />
+			<newline/>
+			<field name="qty" />
+		    </group>
+		    <button string="Create Package(s)" type="object" name="create_manual_package" />
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_create_manual_package" model="ir.actions.act_window">
+            <field name="name">Create Package</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">stock.create.manual.package</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</openerp>

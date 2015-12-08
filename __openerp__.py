@@ -7,8 +7,9 @@
     'website': 'https://www.gcotech.com',
     'description': """ 
     """,
-    'data': ['views/stock.xml',
+    'data': [
 	     'wizard/create_package.xml',
+	     'views/stock.xml',
 	     'views/package.xml',
     ],
     'test': [
